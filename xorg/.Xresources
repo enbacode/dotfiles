@@ -1,0 +1,68 @@
+*.background: #383c4a
+*.foreground: #D2D2D2
+
+!black
+*color0: #383c4a
+*color8: #404552
+
+!red
+*color1: #9A4138
+*color9: #E7766B
+
+!green
+*color2: #4BEC90
+*color10: #3CBF75
+
+!yellow
+*color3: #D8D782
+*color11: #CFCD63
+
+!blue
+*color4: #5294e2
+*color12: #579CEF
+
+!magenta
+*color5: #CE50DD
+*color13: #E7766B
+
+!cyan
+*color6: #6BE5E7
+*color14: #90FDFF
+
+!white
+*color7: #CCCCCC
+*color15: #FFFFFF
+
+!Rofi
+rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
+!rofi.color-normal: argb:31d1f21
+rofi.color-urgent: argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
+rofi.color-active: argb:2c1d1f21, #65acff, argb:e44b5160, #4491ed, #f9f9f9
+rofi.width: 100
+rofi.lines: 5
+!rofi.columns: 2
+rofi.font: Source Code Pro 16
+rofi.bw: 0
+rofi.padding: 400
+rofi.eh: 1
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+
+!URxvt
+URxvt.saveLines: 1000
+URxvt.scrollBar: false
+URxvt.secondaryScroll: true
+URxvt.font: xft:FuraCode Nerd Font:pixelsize=16
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: google-chrome-stable
+URxvt.matcher.button: 1
+URxvt.tabbed.saveLines: 1000
+URxvt.tabbed.scrollBar: false
+URxvt.tabbed.tabbar-fg: 3
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 1
+URxvt.tabbed.secondaryScroll: true
+URxvt.tabbed.font: xft:Bitstream Vera Sans Mono:pixelsize=12 
+URxvt.shading: 70
+URxvt.depth: 32

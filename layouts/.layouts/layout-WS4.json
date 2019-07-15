@@ -1,0 +1,68 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"percent": null,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"percent": 0.5,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 2,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 429,
+					"width": 642,
+					"x": 0,
+					"y": 0
+				},
+				"name": "ncmpcpp",
+				"percent": 1,
+				"swallows": [
+				{
+					"instance": "^ncmpcpp$"
+				}
+				],
+				"type": "con"
+			}
+			]
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"percent": 0.5,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 2,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 429,
+					"width": 642,
+					"x": 0,
+					"y": 0
+				},
+				"name": "youtube",
+				"percent": 1,
+				"swallows": [
+				{
+					"instance": "^mpsyt$"
+				}
+				],
+				"type": "con"
+			}
+			]
+		}
+	]
+}
+]

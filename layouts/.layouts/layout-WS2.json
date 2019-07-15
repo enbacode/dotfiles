@@ -1,0 +1,78 @@
+[
+{
+	"border": "normal",
+		"floating": "auto_off",
+		"fullscreen_mode": 0,
+		"layout": "splith",
+		"percent": null,
+		"type": "con",
+		"nodes": [
+		{
+			"border": "pixel",
+			"current_border_width": 2,
+			"floating": "auto_off",
+			"geometry": {
+				"height": 950,
+				"width": 1112,
+				"x": 30,
+				"y": 68
+			},
+			"name": "vs code",
+			"percent": 0.6,
+			"swallows": [
+			{
+				"instance": "^code-oss$"
+			}
+			],
+			"type": "con"
+		},
+		{
+			"border": "normal",
+			"floating": "auto_off",
+			"layout": "splitv",
+			"percent": 0.4,
+			"type": "con",
+			"nodes": [
+			{
+				"border": "pixel",
+				"current_border_width": 2,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 429,
+					"width": 642,
+					"x": 0,
+					"y": 0
+				},
+				"name": "coding shell 1",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": "^code-shell1$"
+				}
+				],
+				"type": "con"
+			},
+			{
+				"border": "pixel",
+				"current_border_width": 2,
+				"floating": "auto_off",
+				"geometry": {
+					"height": 429,
+					"width": 642,
+					"x": 0,
+					"y": 0
+				},
+				"name": "code shell 2",
+				"percent": 0.5,
+				"swallows": [
+				{
+					"instance": "^code-shell2$"
+				}
+				],
+				"type": "con"
+			}
+			]
+		}
+	]
+}
+]
